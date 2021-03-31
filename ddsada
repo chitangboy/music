@@ -1,0 +1,29 @@
+[33mcommit 259d3caf704176a7192ea0ace8ba347c38de2225[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2d21725 ce2c254
+Author: binaryify <binaryify@gmail.com>
+Date:   Tue Mar 30 13:55:56 2021 +0800
+
+    Merge pull request #1166 from Binaryify/renovate/node-14.x
+    
+    Update dependency @types/node to v14.14.37
+
+[1mdiff --cc package.json[m
+[1mindex 3de0128,42e3c4e..bbb92ce[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@@ -46,12 -46,12 +46,12 @@@[m
+      "tunnel": "^0.0.6"[m
+    },[m
+    "devDependencies": {[m
+[31m-     "@types/node": "14.14.31",[m
+[32m+     "@types/node": "14.14.37",[m
+      "@typescript-eslint/eslint-plugin": "4.4.1",[m
+      "@typescript-eslint/parser": "4.4.1",[m
+[31m -    "eslint": "7.21.0",[m
+[32m +    "eslint": "7.23.0",[m
+      "eslint-config-prettier": "7.1.0",[m
+[31m -    "eslint-plugin-html": "6.1.1",[m
+[32m +    "eslint-plugin-html": "6.1.2",[m
+      "eslint-plugin-prettier": "3.3.1",[m
+      "intelli-espower-loader": "1.0.1",[m
+      "lint-staged": "10.5.4",[m
